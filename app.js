@@ -45,25 +45,25 @@
 // Question# 5
 // var a = 4;
 // if (++a === 5){
-// alert("given condition for variable a is true");
+// alert("given condition is true");
 // }
 
 // var b = 82;
 // if (b++ === 83){
-// alert("given condition for variable b is true"); }
+// alert("condition is false"); }
 
 // var c = 12;
 // if (c++ === 13){
-// alert("condition 1 is true");
+// alert("condition is false");
 // }
 // if (c === 13){
-// alert("condition 2 is true");
+// alert("condition is true");
 // }
 // if (++c < 14){
-// alert("condition 3 is true");
+// alert("condition is false");
 // }
 // if(c === 14){
-// alert("condition 4 is true");
+// alert("condition is true");
 // }
 
 // var materialCost = 20000;
@@ -78,8 +78,8 @@
 // if (false){
 // alert("False");
 // }
-// if("cat" < "car"){
-// alert("cat is smaller than car");}
+// if("car" < "cat"){
+// alert("car is smaller than cat");}
 
 
 // Assignment-3
@@ -119,17 +119,17 @@
 // Assignment-3
 // Chapter# 9-11
 // Question# 7
-var secretNumber=7;
-var guess=+prompt("Guess the secret number");
+var secretNumber = +prompt("Enter secret number");
+var guess = +prompt("Guess the secret number");
 
-if(guess===secretNumber){
+if (guess === secretNumber) {
     document.write("Bingo! Congrajulation You Won 🏆");
 }
-else if(guess===secretNumber-1){
+else if (guess === secretNumber - 1) {
     document.write("close enough to correct answer 🤔🔮???");
 }
 
-else if(guess===secretNumber+1){
+else if (guess === secretNumber + 1) {
     document.write("close enough to correct answer 🤔🔮???");
 }
 else {
@@ -291,7 +291,7 @@ else {
 //     greeting = "Good day";
 // } else {                       //two curly bracket fix one before else and other one after bracket
 //     greeting = "Good evening";
-// } 
+// }
 
 
 // Assignment-3
